@@ -14,12 +14,12 @@
 .item{
     width: 100%;
     border: 2px solid #fff;
-}
-
-.item:hover{
-    transform: scale(1.05);
-    transition: all 1s;
-    filter: grayscale(80%)
+    background-size: cover;
+    background-position: center;
+    .hover{
+        transform: scale(1.05);
+        transition: all 1s;
+    }
 }
 
 .describe{
@@ -31,26 +31,18 @@
 
 .tomy{
     background-image: url(imagenes/integrantes/tomy.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .seba{
     background-image: url(imagenes/integrantes/seba.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .diego{
     background-image: url(imagenes/integrantes/diego.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .russo{
     background-image: url(imagenes/integrantes/russo.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 /* ------------------ Media - Adaptación 1200px----------------------- */

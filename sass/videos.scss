@@ -8,13 +8,11 @@
     flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
+    .video_video iframe{
+        margin: 0;
+        margin: 10px;
+    }
 }
-
-.video_video iframe{
-    margin: 0;
-    margin: 10px;
-}
-
 
 /* ------------------ Media - Adaptación 1200px----------------------- */
 

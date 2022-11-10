@@ -8,14 +8,26 @@
 @import "sass/contacto.scss";
 @import "sass/footer.scss";
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body{
     font-family: $fuente1;
+}
+
+
+// Titulos 
+
+h2{
+    background-color: rgb(167, 121, 37);
+    border: 1px solid $color2;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color3;
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: x-large;
 }

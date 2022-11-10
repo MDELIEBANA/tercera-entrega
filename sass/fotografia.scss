@@ -10,65 +10,50 @@
     grid-template-rows: repeat(8, 200px);
     grid-gap: 20px;
     padding: 20px;
+    .item{
+        width: 100%;
+        border: 2px solid lightgray;
+        background-size: cover;
+        background-position: center;
+        :hover{
+            transform: scale(1.05);
+            transition: all 1s;
+            filter: grayscale(80%);
+        }
+    }
 }
 
-.item{
-    width: 100%;
-    border: 2px solid lightgray;
-}
-
-.item:hover{
-    transform: scale(1.05);
-    transition: all 1s;
-    filter: grayscale(80%);
-}
 
 .item1{
     background-image: url(imagenes/galeria/vivo1.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .item2{
     background-image: url(imagenes/galeria/vivo2.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .item3{
     background-image: url(imagenes/galeria/vivo3.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .item4{
     background-image: url(imagenes/galeria/vivo4.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .item5{
     background-image: url(imagenes/galeria/vivo5.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .item6{
     background-image: url(imagenes/galeria/vivo1.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .item7{
     background-image: url(imagenes/galeria/vivo2.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .item8{
     background-image: url(imagenes/galeria/vivo1.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 

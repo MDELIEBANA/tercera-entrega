@@ -9,27 +9,25 @@ footer{
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    p{
+        font-size: 20px;
+    }
+    .sitiodesa{
+        font-size: 15px;
+        color: $color3;
+    }
+    .redes{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    i{
+        font-size: 40px;
+        color: $color2;
+        letter-spacing: 10px;
+    }
 }
 
-footer .redes{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
 
-footer i{
-    font-size: 40px;
-    color: $color2;
-    letter-spacing: 10px;
-}
-
-footer p{
-    font-size: 20px;
-}
-
-.sitiodesa{
-    font-size: 15px;
-    color: $color3;
-}
 
 /* ------------------ Media - Adaptación 1200px----------------------- */
 
@@ -41,26 +39,21 @@ footer{
     text-align: center;
     padding: 15px;
     font-size: 35px;
+    p{
+        font-size: 25px;
+    }
+    .sitiodesa{
+        font-size: 15px;
+        color: $color3;
+    }
+    .redes{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        i{
+            font-size: 40px;
+            color: $color2;
+            letter-spacing: 10px;
+        }
+    }
 }
-
-footer .redes{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-footer i{
-    font-size: 40px;
-    color: $color2;
-    letter-spacing: 10px;
-}
-
-footer p{
-    font-size: 20px;
-}
-
-.sitiodesa{
-    font-size: 15px;
-    color: $color3;
-}
-
 }

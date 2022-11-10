@@ -7,40 +7,35 @@
     width: 100%;
     height: 550px;
     background-color: lightgray;
-}
-
-.nleft{
-    background-image: url(imagenes/flyers/rebelion.jpg); 
-    background-size:cover;
-    height: 50%;
-    width: 100%;
-    padding: 20px;
-}
-
-.nright{
-    padding: 20px;
-    height: 35%;
-}
-
-.nright h3{
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.nright p{
-    font-size: 17px;
+    .nleft{
+        background-image: url(imagenes/flyers/rebelion.jpg); 
+        background-size:cover;
+        height: 50%;
+        width: 100%;
+        padding: 20px;
+    }
+    .nright{
+        padding: 20px;
+        height: 35%;
+        h3{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
 }
 
 .redes_disco{
     text-align: center;
     padding: 5px;
     height: auto;
-}
-
-.redes_disco :hover{
-    color: $color1;
+    :hover{
+        color: $color1;
+    }
 }
 
 .adicional{
@@ -55,21 +50,20 @@
 
 .discografia{
 display: flex;
+    .nleft{
+        background-image: url(imagenes/flyers/rebelion_full.jpg); 
+        height: 100%;
+        width: 80%;
+    }
+    .nright{
+        padding: 50px;
+        height: 80%;
+    }
 }
 
 .discoaju{
     display: flex;
     flex-flow: column;
-}
-.nleft{
-    background-image: url(imagenes/flyers/rebelion_full.jpg); 
-    height: 100%;
-    width: 80%;
-}
-
-.nright{
-    padding: 50px;
-    height: 80%;
 }
 
 .adicional{
@@ -84,11 +78,10 @@ main .redes i{
     height: 30%;
     text-align: center;
     letter-spacing: 20px;
-}
-
-.redes_disco i{
-    font-size: 70px;
-    color:$color1
+    i{
+        font-size: 70px;
+        color:$color1
+    }
 }
 
 }

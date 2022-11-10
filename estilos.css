@@ -30,22 +30,6 @@
   font-size: 30px;
 }
 
-.redes {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  float: right;
-}
-
-.redes :hover {
-  color: white;
-}
-
-i {
-  font-size: 40px;
-  color: rgba(0, 0, 0, 0.555);
-  letter-spacing: 10px;
-}
-
 main {
   background-image: url(imagenes/logos_juntos/fondomobile.JPG);
   height: 100vh;
@@ -54,6 +38,19 @@ main {
   background-size: cover;
   padding: 20px;
 }
+main .redes {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: right;
+}
+main .redes :hover {
+  color: white;
+}
+main .redes i {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.555);
+  letter-spacing: 10px;
+}
 
 .call {
   width: 250px;
@@ -61,43 +58,29 @@ main {
   border: 2px solid #E79232;
   border-radius: 10px;
   float: right;
-  margin-top: 250px;
+  margin-top: 225px;
   padding: 20px;
 }
-
-.call p {
-  color: white;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  padding: auto;
-}
-
-h1 {
+.call h1 {
   color: white;
   margin-bottom: 12px;
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
 }
-
-.callb {
+.call p {
+  color: white;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  padding: auto;
+}
+.call .callb {
   background-color: white;
   padding: 10px 20px;
   height: 30px;
   width: 20px;
   border-radius: 10px;
   text-decoration: none;
-}
-
-h2 {
-  background-color: #E79232;
-  border: 1px solid black;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  padding: 10px;
-  margin-bottom: 0;
-  font-size: x-large;
 }
 
 /* ------------------ Media - Adaptación 1200px----------------------- */
@@ -110,19 +93,19 @@ h2 {
     justify-content: flex-end;
     flex-direction: column-reverse;
   }
-  .call {
-    width: 600px;
-    height: 250px;
-    background-color: rgba(0, 0, 0, 0.514);
-    margin: 10px;
-    padding: 40px;
-  }
   main .redes {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 80px;
     align-content: space-around;
+  }
+  .call {
+    width: 600px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.514);
+    margin: 10px;
+    padding: 40px;
   }
 }
 /* --------------Discografía----------------- */
@@ -131,28 +114,24 @@ h2 {
   height: 550px;
   background-color: lightgray;
 }
-
-.nleft {
+.discografia .nleft {
   background-image: url(imagenes/flyers/rebelion.jpg);
   background-size: cover;
   height: 50%;
   width: 100%;
   padding: 20px;
 }
-
-.nright {
+.discografia .nright {
   padding: 20px;
   height: 35%;
 }
-
-.nright h3 {
+.discografia .nright h3 {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-
-.nright p {
+.discografia .nright p {
   font-size: 17px;
 }
 
@@ -161,7 +140,6 @@ h2 {
   padding: 5px;
   height: auto;
 }
-
 .redes_disco :hover {
   color: #E79232;
 }
@@ -176,18 +154,18 @@ h2 {
   .discografia {
     display: flex;
   }
-  .discoaju {
-    display: flex;
-    flex-flow: column;
-  }
-  .nleft {
+  .discografia .nleft {
     background-image: url(imagenes/flyers/rebelion_full.jpg);
     height: 100%;
     width: 80%;
   }
-  .nright {
+  .discografia .nright {
     padding: 50px;
     height: 80%;
+  }
+  .discoaju {
+    display: flex;
+    flex-flow: column;
   }
   .adicional {
     display: block;
@@ -216,8 +194,7 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
 }
-
-.video_video iframe {
+.contenidovideos .video_video iframe {
   margin: 0;
   margin: 10px;
 }
@@ -247,13 +224,13 @@ h2 {
   grid-gap: 20px;
   padding: 20px;
 }
-
-.item {
+.galeria .item {
   width: 100%;
   border: 2px solid lightgray;
+  background-size: cover;
+  background-position: center;
 }
-
-.item:hover {
+.galeria .item :hover {
   transform: scale(1.05);
   transition: all 1s;
   filter: grayscale(80%);
@@ -261,50 +238,34 @@ h2 {
 
 .item1 {
   background-image: url(imagenes/galeria/vivo1.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .item2 {
   background-image: url(imagenes/galeria/vivo2.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .item3 {
   background-image: url(imagenes/galeria/vivo3.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .item4 {
   background-image: url(imagenes/galeria/vivo4.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .item5 {
   background-image: url(imagenes/galeria/vivo5.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .item6 {
   background-image: url(imagenes/galeria/vivo1.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .item7 {
   background-image: url(imagenes/galeria/vivo2.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .item8 {
   background-image: url(imagenes/galeria/vivo1.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 /* ------------------ Media - Adaptación 1200px----------------------- */
@@ -350,12 +311,12 @@ h2 {
 .item {
   width: 100%;
   border: 2px solid #fff;
+  background-size: cover;
+  background-position: center;
 }
-
-.item:hover {
+.item .hover {
   transform: scale(1.05);
   transition: all 1s;
-  filter: grayscale(80%);
 }
 
 .describe {
@@ -367,26 +328,18 @@ h2 {
 
 .tomy {
   background-image: url(imagenes/integrantes/tomy.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .seba {
   background-image: url(imagenes/integrantes/seba.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .diego {
   background-image: url(imagenes/integrantes/diego.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .russo {
   background-image: url(imagenes/integrantes/russo.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 /* ------------------ Media - Adaptación 1200px----------------------- */
@@ -416,7 +369,7 @@ h2 {
 }
 
 .cajacon {
-  height: 550px;
+  height: 350px;
 }
 
 /* ------------------ Media - Adaptación 1200px----------------------- */
@@ -427,6 +380,7 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     background-color: lightgray;
+    height: 550px;
   }
   .imagenlogoco {
     background-image: url(imagenes/logos_juntos/logobcoyngro.jpg);
@@ -446,25 +400,21 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
+footer p {
+  font-size: 20px;
+}
+footer .sitiodesa {
+  font-size: 15px;
+  color: white;
+}
 footer .redes {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
 footer i {
   font-size: 40px;
   color: black;
   letter-spacing: 10px;
-}
-
-footer p {
-  font-size: 20px;
-}
-
-.sitiodesa {
-  font-size: 15px;
-  color: white;
 }
 
 /* ------------------ Media - Adaptación 1200px----------------------- */
@@ -475,21 +425,21 @@ footer p {
     padding: 15px;
     font-size: 35px;
   }
+  footer p {
+    font-size: 25px;
+  }
+  footer .sitiodesa {
+    font-size: 15px;
+    color: white;
+  }
   footer .redes {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  footer i {
+  footer .redes i {
     font-size: 40px;
     color: black;
     letter-spacing: 10px;
-  }
-  footer p {
-    font-size: 20px;
-  }
-  .sitiodesa {
-    font-size: 15px;
-    color: white;
   }
 }
 * {
@@ -500,6 +450,17 @@ footer p {
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  background-color: rgb(167, 121, 37);
+  border: 1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=estilos.css.map */
