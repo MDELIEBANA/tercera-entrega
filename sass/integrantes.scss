@@ -16,10 +16,12 @@
     border: 2px solid #fff;
     background-size: cover;
     background-position: center;
-    .hover{
-        transform: scale(1.05);
-        transition: all 1s;
-    }
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+    filter: grayscale(80%)
 }
 
 .describe{

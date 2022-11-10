@@ -314,9 +314,11 @@ main .redes i {
   background-size: cover;
   background-position: center;
 }
-.item .hover {
+
+.item:hover {
   transform: scale(1.05);
   transition: all 1s;
+  filter: grayscale(80%);
 }
 
 .describe {
@@ -453,7 +455,7 @@ body {
 }
 
 h2 {
-  background-color: rgb(167, 121, 37);
+  background-color: rgb(53, 50, 50);
   border: 1px solid black;
   text-align: center;
   text-transform: uppercase;
@@ -461,6 +463,4 @@ h2 {
   padding: 10px;
   margin-bottom: 0;
   font-size: x-large;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
