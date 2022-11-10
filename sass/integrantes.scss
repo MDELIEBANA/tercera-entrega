@@ -1,0 +1,73 @@
+/* --------------Integrantes----------------- */
+
+.galeria_integra{
+    background-color: $color2;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 500px);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.item{
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+    filter: grayscale(80%)
+}
+
+.describe{
+    color: $color3;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tomy{
+    background-image: url(imagenes/integrantes/tomy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.seba{
+    background-image: url(imagenes/integrantes/seba.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.diego{
+    background-image: url(imagenes/integrantes/diego.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.russo{
+    background-image: url(imagenes/integrantes/russo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------------ Media - Adaptación 1200px----------------------- */
+
+@media only screen and (min-width:1200px){
+
+/* --------------Integrantes----------------- */
+
+.galeria_integra{
+    background-color: $color2;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+}

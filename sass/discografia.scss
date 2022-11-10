@@ -1,0 +1,94 @@
+
+
+/* --------------Discografía----------------- */
+
+
+.discografia{
+    width: 100%;
+    height: 550px;
+    background-color: lightgray;
+}
+
+.nleft{
+    background-image: url(imagenes/flyers/rebelion.jpg); 
+    background-size:cover;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+}
+
+.nright{
+    padding: 20px;
+    height: 35%;
+}
+
+.nright h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.nright p{
+    font-size: 17px;
+}
+
+.redes_disco{
+    text-align: center;
+    padding: 5px;
+    height: auto;
+}
+
+.redes_disco :hover{
+    color: $color1;
+}
+
+.adicional{
+    display: none;
+}
+
+/* ------------------ Media - Adaptación 1200px----------------------- */
+
+@media only screen and (min-width:1200px){
+
+/* ---Discografía 1200--- */
+
+.discografia{
+display: flex;
+}
+
+.discoaju{
+    display: flex;
+    flex-flow: column;
+}
+.nleft{
+    background-image: url(imagenes/flyers/rebelion_full.jpg); 
+    height: 100%;
+    width: 80%;
+}
+
+.nright{
+    padding: 50px;
+    height: 80%;
+}
+
+.adicional{
+    display: block;
+    text-align: center;
+}
+
+main .redes i{
+    font-size: 70px;
+}
+.redes_disco{
+    height: 30%;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.redes_disco i{
+    font-size: 70px;
+    color:$color1
+}
+
+}

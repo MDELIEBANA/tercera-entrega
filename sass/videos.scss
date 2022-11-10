@@ -1,0 +1,37 @@
+/* --------------Videos----------------- */
+
+.contenidovideos{
+    background-color: $color2;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.video_video iframe{
+    margin: 0;
+    margin: 10px;
+}
+
+
+/* ------------------ Media - Adaptación 1200px----------------------- */
+
+@media only screen and (min-width:1200px){
+
+/* --------------Videos 1200----------------- */
+
+.contenidovideos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.video_video iframe{
+    height: 400px;
+    width: 350px;
+    background-position: center;
+}
+
+}

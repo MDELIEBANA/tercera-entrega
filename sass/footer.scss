@@ -1,0 +1,66 @@
+
+/* --------------Footer----------------- */
+
+footer{
+    background-color: $color1;
+    text-align: center;
+    font-family: $fuente1;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .redes{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer i{
+    font-size: 40px;
+    color: $color2;
+    letter-spacing: 10px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.sitiodesa{
+    font-size: 15px;
+    color: $color3;
+}
+
+/* ------------------ Media - Adaptación 1200px----------------------- */
+
+@media only screen and (min-width:1200px){
+
+/* --------------Footer 1200----------------- */
+
+footer{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+footer .redes{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer i{
+    font-size: 40px;
+    color: $color2;
+    letter-spacing: 10px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.sitiodesa{
+    font-size: 15px;
+    color: $color3;
+}
+
+}

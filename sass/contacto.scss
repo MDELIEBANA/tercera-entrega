@@ -1,0 +1,40 @@
+/* --------------Contacto----------------- */
+
+.contacto2{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: $color1 !important;
+}
+
+.cajacon{
+    height: 550px;
+}
+
+/* ------------------ Media - Adaptación 1200px----------------------- */
+
+@media only screen and (min-width:1200px){
+
+/* --------------Contacto 1200----------------- */
+
+.cajacon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightgray;
+
+}
+
+.imagenlogoco{
+    background-image: url(imagenes/logos_juntos/logobcoyngro.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+}
